@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 146.413 s <<< FAILURE! - in TestSuite
+Selenium.Dummy1.sample1  Time elapsed: 119.143 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-beta-1', revision: '9c03156c2b'
+System info: host: 'SANKET-PC', ip: '192.168.43.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}
+	at Selenium.Dummy1.sample1(Dummy1.java:24)
+Caused by: java.lang.NullPointerException
+	at Selenium.Dummy1.sample1(Dummy1.java:24)
+
